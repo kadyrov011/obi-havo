@@ -25,7 +25,7 @@ var lon = localStorage.getItem("lon")
     }))
 function handleBack() {
     
-    console.log(window.location = 'http://127.0.0.1:5500/index.html');
+    console.log(window.location = '../index.html');
 }
 
 elBack.addEventListener('click',handleBack)

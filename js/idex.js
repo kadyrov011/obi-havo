@@ -26,7 +26,7 @@ elInfo.addEventListener('click',handleTarget)
 function hendleClickBtn(evt){
   localStorage.setItem('let',evt.target.dataset.lat)
   localStorage.setItem('lon',evt.target.dataset.lon)
-  window.location = 'http://127.0.0.1:5500/info.html'
+  window.location = '../info.html'
   }
 
 function handleInput(evt){
