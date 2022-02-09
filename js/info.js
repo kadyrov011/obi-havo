@@ -25,7 +25,7 @@ var lon = localStorage.getItem("lon")
     }))
 function handleBack() {
     
-    console.log(window.location = '../index.html');
+    console.log(window.location = 'https://kadyrov011.github.io/obi-havo//index.html');
 }
 
 elBack.addEventListener('click',handleBack)

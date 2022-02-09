@@ -26,7 +26,7 @@ elInfo.addEventListener('click',handleTarget)
 function hendleClickBtn(evt){
   localStorage.setItem('let',evt.target.dataset.lat)
   localStorage.setItem('lon',evt.target.dataset.lon)
-  window.location = '../info.html'
+  window.location = 'https://kadyrov011.github.io/obi-havo/info.html'
   }
 
 function handleInput(evt){
