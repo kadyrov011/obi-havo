@@ -15,7 +15,7 @@ function handleTarget(evt){
       var lon = evt.target.dataset.lon = element.lon 
       localStorage.setItem("let",lat);
       localStorage.setItem("lon",lon);
-      window.location = 'http://127.0.0.1:5500/info.html'
+      window.location = 'https://kadyrov011.github.io/obi-havo/info.html'
     }));
   
 }
